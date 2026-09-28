@@ -1,0 +1,10 @@
+{
+  "name": "nthu-badminton-bot",
+  "version": "1.0.0",
+  "description": "Local Google Chrome booking assistant (macOS) for NTHU Alumni Hall badminton courts, with scheduling and manual login.",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "test": "node --test tests/*.test.mjs" },
+  "dependencies": { "playwright": "1.63.0" }
+}
